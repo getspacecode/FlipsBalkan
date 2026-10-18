@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  word-wrap: break-word;
+  text-wrap: wrap;
+  scrollbar-width: none;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+.undertext-mainpage {
+  text-shadow: 0 0 2px #eab308;
+}
+.main-container {
+  background-image: url(./assets/logo.jpg);
+  background-position: 50% 50%;
+}
